@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tea Collections</title>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/slick.css">
+    <link rel="stylesheet" href="libs/slick-theme.css">
+    <link rel="stylesheet" href="libs/jquery-ui.min.css">
+    <link rel="stylesheet" href="libs/animate.min.css">
+    <link rel="stylesheet" href="libs/viewer.min.css">
+    <link rel="stylesheet" href="libs/hover-min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary wow animate__backInUp">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск чая" aria-label="Search">
+                <button class="btn btn-outline-primary hvr-buzz"
+                        style="--bs-btn-padding-x: 1.75rem; --bs-btn-padding-y: .5rem;"
+                        type="submit">Найти
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4 pb-4 pt-5 wow animate__backInRight">
+    <div class="single-item">
+        <div>
+            <img class="first-slide" src="images/slick-slider-img-1.png" alt="first slide">
+        </div>
+        <div>
+            <img class="second-slide" src="images/slick-slider-img-2.png" alt="second slide">
+        </div>
+        <div>
+            <img class="third-slide" src="images/slick-slider-img-3.png" alt="third slide">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="text-center m-5 py-2 wow animate__backInLeft">Наши чайные коллекции</h2>
+
+    <div class="row justify-content-center px-2 g-4">
+
+        <div class="col-lg-4 col-md-6 wow animate__fadeInUp">
+            <div class="card">
+                <img src="images/tea-cards/tea-card-img-4.png"
+                     class="card-img-top object-fit-cover object-position-center viewable-image" style="height: 180px;"
+                     id="image" alt="Детокс чай лайм">
+                <div class="card-body p-4">
+                    <h5 class="card-title">Детокс чай лайм</h5>
+                    <p class="card-text">Великолепный чай внесет в вашу жизнь яркие краски и вкус расслабления</p>
+                    <a href="#" class="btn btn-primary hvr-pulse-shrink"
+                       style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow animate__fadeInUp">
+            <div class="card">
+                <img src="images/tea-cards/tea-card-img-2.png"
+                     class="card-img-top object-fit-cover object-position-center viewable-image" style="height: 180px;"
+                     alt="Ягодный чай">
+                <div class="card-body p-4">
+                    <h5 class="card-title">Ягодный чай</h5>
+                    <p class="card-text">Нотки ягод позволят вам расслабиться и насладиться великолепием этого чая</p>
+                    <a href="#" class="btn btn-primary hvr-pulse-shrink"
+                       style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow animate__fadeInUp">
+            <div class="card">
+                <img src="images/tea-cards/tea-card-img-3.png"
+                     class="card-img-top object-fit-cover object-position-center viewable-image" style="height: 180px;"
+                     alt="Цветочный чай">
+                <div class="card-body p-4">
+                    <h5 class="card-title">Цветочный чай</h5>
+                    <p class="card-text">Душистые цветы создают невероятный аромат и наполняют вас энергией</p>
+                    <a href="#" class="btn btn-primary hvr-pulse-shrink"
+                       style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow animate__fadeInUp">
+            <div class="card">
+                <img src="images/tea-cards/tea-card-img-4.png"
+                     class="card-img-top object-fit-cover object-position-center viewable-image" style="height: 180px;"
+                     alt="Очищающий чай">
+                <div class="card-body p-4">
+                    <h5 class="card-title">Очищающий чай</h5>
+                    <p class="card-text">Бесподобный чай для получения утреннего заряда бодрости</p>
+                    <a href="#" class="btn btn-primary hvr-pulse-shrink"
+                       style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow animate__fadeInUp">
+            <div class="card">
+                <img src="images/tea-cards/tea-card-img-5.png"
+                     class="card-img-top object-fit-cover object-position-center viewable-image" style="height: 180px;"
+                     alt="Кислый чай">
+                <div class="card-body p-4">
+                    <h5 class="card-title">Кислый чай</h5>
+                    <p class="card-text">Кислый чай для настоящих ценителей кислинки во время чаепития</p>
+                    <a href="#" class="btn btn-primary hvr-pulse-shrink"
+                       style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 wow animate__fadeInUp">
+            <div class="card h-100">
+                <img src="images/tea-cards/tea-card-img-6.png"
+                     class="card-img-top object-fit-cover object-position-center viewable-image" style="height: 180px;"
+                     alt="Лимонная мята">
+                <div class="card-body p-4">
+                    <h5 class="card-title">Лимонная мята</h5>
+                    <p class="card-text">Смесь лимона с мятой сделает ваш день самым лучшим</p>
+                    <a href="#" class="btn btn-primary hvr-pulse-shrink"
+                       style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container m-5 pt-3 pb-4 mx-auto wow animate__hinge">
+    <h2 class="text-center pb-5">Ответы на часто задаваемые вопросы</h2>
+
+    <div class="row g-3 justify-content-center">
+        <div class="col-lg-8">
+            <div id="accordion">
+                <h3 class="p-4 border border-0 rounded-3 fw-bold bg-primary text-light">Собираете ли вы подарочные
+                    боксы?</h3>
+                <div>
+                    <p>
+                        Да, у нас есть такая услуга. Мы можем собрать подарочный бокс на любой вкус, объем и стоимость!
+                    </p>
+                </div>
+                <h3 class="p-4 mt-3 border border-0 rounded-3 fw-bold bg-primary text-light">Сколько у вас
+                    разновидностей чая?</h3>
+                <div>
+                    <p>
+                        У нас в наличии более 50-и разновидностей чая на любой вкус. Вы сможете найти всё, что будет
+                        угодно Вашей душе, будь Вы новичок, любитель или истинный ценитель!
+                    </p>
+                </div>
+                <h3 class="p-4 mt-3 border border-0 rounded-3 fw-bold bg-primary text-light">В какой срок осуществляется
+                    доставка?</h3>
+                <div>
+                    <p>
+                        Ориентировочные сроки доставки:
+                    </p>
+                    <ul>
+                        <li>По Москве и МО - от 1 до 3 рабочих дней</li>
+                        <li>По России (курьерские службы, СДЭК, Почта России) - от 3 до 7 рабочих дней</li>
+                        <li>Международная доставка - от 7 до 21 дня в зависимости от страны и выбранного способа
+                            доставки
+                        </li>
+                    </ul>
+                    <p>
+                        В день отправки заказа вы получите трек-номер для отслеживания.
+                    </p>
+                </div>
+                <h3 class="p-4 mt-3 border border-0 rounded-3 fw-bold bg-primary text-light">У вас обновляется
+                    ассортимент?</h3>
+                <div>
+                    <p>
+                        Да, мы регулярно обновляем наш ассортимент!
+                    </p>
+                    <p>
+                        Каждый месяц в каталоге появляются:
+                    </p>
+                    <ul>
+                        <li>Новые продукты для здоровья и красоты</li>
+                        <li>Сезонные новинки и лимитированные серии</li>
+                        <li>Специальные предложения и подарочные наборы</li>
+                    </ul>
+                    <p>
+                        Следите за обновлениями на сайте и в наших соцсетях - первыми узнавайте о новинках и акциях!
+                        Оставляйте отзывы и комментарии, какой чай вы хотели бы увидеть в нашей коллекции!
+                    </p>
+                </div>
+                <h3 class="p-4 mt-3 border border-0 rounded-3 fw-bold bg-primary text-light">Какого объема у вас пачки
+                    чая?</h3>
+                <div>
+                    <p>
+                        Объём зависит от конкретной коллекции, его типа (листовой или гранулированный), но в среднем,
+                        можете рассмотреть предложенные варианты:
+                    </p>
+                    <ul>
+                        <li>Классические упаковки - от 20 до 25 фильтр-пакетов (по 1.5–2 г)</li>
+                        <li>Насыпной чай - от 50 до 150 г</li>
+                        <li>Подарочные наборы - индивидуальные форматы</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container wow animate__rollIn">
+    <div class="col-lg-6 mx-auto pb-5" id="makeOrderBlock">
+        <h2 class="text-center pb-5">Сделать заказ</h2>
+
+        <form action="#" method="post">
+            <div class="row pb-3">
+                <div class="col-lg-4">
+                    <label for="validationCustom01" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="validationCustom01">
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="validationCustom02" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" id="validationCustom02">
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="validationCustom03" class="form-label">Телефон</label>
+                    <input type="text" class="form-control" id="validationCustom03">
+                </div>
+            </div>
+
+            <div class="row pb-3">
+                <div class="col-lg-6">
+                    <label for="validationCustom04" class="form-label">Страна</label>
+                    <input type="text" class="form-control" id="validationCustom04">
+                </div>
+
+                <div class="col-lg-6">
+                    <label for="validationCustom05" class="form-label">Индекс</label>
+                    <input type="text" class="form-control" id="validationCustom05">
+                </div>
+            </div>
+
+            <div class="row pb-4">
+                <div class="col-lg-12">
+                    <label for="validationCustom06" class="form-label">Адрес</label>
+                    <input type="text" class="form-control" id="validationCustom06">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary hvr-pop"
+                    style="--bs-btn-padding-y: .4rem; --bs-btn-padding-x: 2.6rem;" id="create-order">Отправить
+            </button>
+        </form>
+
+    </div>
+
+    <div class="col-lg-6 mx-auto pb-5 d-none" id="gratitudeBlock">
+        <h2 class="text-center p-4 border border-primary border-2 rounded-3 border-opacity-50">Спасибо за
+            заказ!</h2>
+    </div>
+</div>
+
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-6 opacity-75" href="#">Все права защищены</a>
+    </div>
+</nav>
+
+<script src="libs/jquery-3.7.1.min.js"></script>
+<script src="libs/bootstrap.min.js"></script>
+<script src="libs/slick.min.js"></script>
+<script src="libs/jquery-ui.min.js"></script>
+<script src="libs/jquery.inputmask.js"></script>
+<script src="libs/wow.min.js"></script>
+<script src="libs/viewer.min.js"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
